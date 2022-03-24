@@ -33,7 +33,6 @@ export default function App() {
     isSubscribed
       ? console.log("Thanks for signing up for our newsletter!")
       : null;
-    console.log(formData);
   }
   function handleChange(event) {
     const { name, type, checked, value } = event.target;
