@@ -44,7 +44,6 @@ export default function App() {
         [name]: type === "checkbox" ? checked : value,
       };
     });
-    console.log(formData);
   }
 
   return (
