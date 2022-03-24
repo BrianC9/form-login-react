@@ -30,9 +30,9 @@ export default function App() {
     password === confirmPassword
       ? console.log("Successfully signed up")
       : console.error("Passwords does not match");
-    isSubscribed && password === confirmPassword
-      ? console.log("Thanks for signing up for our newsletter!")
-      : null;
+    isSubscribed &&
+      password === confirmPassword &&
+      console.log("Thanks for signing up for our newsletter!");
   }
   function handleChange(event) {
     const { name, type, checked, value } = event.target;
